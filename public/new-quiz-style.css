@@ -1,0 +1,23 @@
+.add-block {
+    display: grid;
+    gap: 20px;
+    color: #202020;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.new-q-choise {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.new-q-choise + label {
+    padding: 10px;
+    background-color: white;
+    border: 2px dashed #7A45D6;
+    text-align: center;
+}
+
+.new-q-choise + label:hover {
+    color: #7A45D6;
+}

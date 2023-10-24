@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cheerful Linguist</title>
+    <link rel="stylesheet" href="../../public/quiz-style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <h1>NAME</h1>
+        </div>
+        <div class="new-quiz">
+            <button class="quiz-button">Create QUIZ</button>
+        </div>
+    </header>
+    <main>
+        <form class="quiz-form" method="post">
+            <div class="description question">
+                <h1>Test QUIZ</h1>
+                <div>
+                    description of this QUIZ
+                </div>
+            </div>
+            <div class="question">
+                <h2>What color is a banana?</h2>
+                <input type="text" name="question1" class="text-input">
+            </div>
+            <div class="question">
+                <h2>Which color is imaged?</h2>
+                <img src="../d-img/q1-2.jpg">
+                <input type="radio" name="question2" value="q2var1" id="q2var1" class="radio-input">
+                <label for="q2var1">White</label>
+                <input type="radio" name="question2" value="q2var2" id="q2var2" class="radio-input">
+                <label for="q2var2">Pink</label>
+                <input type="radio" name="question2" value="q2var3" id="q2var3" class="radio-input">
+                <label for="q2var3">Gray</label>
+            </div>
+            <div class="question">
+                <h2>Which color is often associated with love?</h2>
+                <input type="checkbox" name="question3" value="q3var1" id="q3var1" class="checkbox-input">
+                <label for="q3var1">Red</label>
+                <input type="checkbox" name="question3" value="q3var2" id="q3var2" class="checkbox-input">
+                <label for="q3var2">Blue</label>
+                <input type="checkbox" name="question3" value="q3var3" id="q3var3" class="checkbox-input">
+                <label for="q3var3">Yellow</label>
+            </div>
+            <button class="quiz-button" type="submit">Отправить</button>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="footer-logo"></div>
+        <ul>
+
+        </ul>
+    </footer>
+</body>
+
+</html>

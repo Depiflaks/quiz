@@ -90,7 +90,8 @@ main {
 }
 
 .block-button {
-    margin-top: auto;
+    margin-top: 0;
     padding: 2% 30%;
     justify-content: end;
 }
+

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>New QUIZ</title>
     <link rel="stylesheet" href="public/quiz-style.css">
-    <link rel="stylesheet" href="public/new-quiz-style.css">
+    <link rel="stylesheet" href="public/add-quiz-style.css">
     <script src="js/main.js"></script>
 </head>
 
@@ -28,13 +28,23 @@
             </div>
 
             <div class="question">
-                <input type="text" name="question3" class="text-input" placeholder="Your question">
-                <input type="radio" name="question2" value="q2var1" id="q2var1" class="radio-input">
-                <label for="q2var1">White</label>
-                <input type="radio" name="question2" value="q2var2" id="q2var2" class="radio-input">
-                <label for="q2var2">Pink</label>
-                <input type="radio" name="question2" value="q2var3" id="q2var3" class="radio-input">
-                <label for="q2var3">Gray</label>
+                <label for="question3" class="q-label">question#1</label>
+                <input type="text" id="question3" class="text-input" placeholder="Your question">
+                <input type="text" class="text-input" placeholder="Answer field" disabled>
+            </div>
+
+            <div class="question">
+                <label for="question4" class="q-label">question#2</label>
+                <input type="text" name="question4" class="text-input" placeholder="Your question">
+                
+                <input type="radio" name="question4" value="q1var1" id="q1var1" class="radio-input">
+                <label for="q1var1">
+                    <input type="text" name="question4" class="text-input" placeholder="variant#1">
+                </label>
+                <input type="radio" name="question4" value="q1var1" id="q2var1" class="radio-input">
+                <label for="q1var1">
+                    <input type="text" name="question4" class="text-input" placeholder="variant#1">
+                </label>
             </div>
 
             <div class="add-block">

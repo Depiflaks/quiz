@@ -6,7 +6,6 @@
     <title>New QUIZ</title>
     <link rel="stylesheet" href="public/quiz-style.css">
     <link rel="stylesheet" href="public/add-quiz-style.css">
-    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -22,29 +21,54 @@
         <form class="quiz-form" method="post">
             <div class="question">
                 <h1>New Quiz</h1>
-                <input type="text" name="question1" class="text-input" placeholder="Quiz caption">
-                <textarea name="question2" id="comment-field" rows="5" 
+                <input type="text" name="caption" class="text-input" placeholder="Quiz caption">
+                <textarea name="description" id="comment-field" rows="5" 
                 placeholder="Quiz description" class="text-input"></textarea>
             </div>
 
             <div class="question">
-                <label for="question3" class="q-label">question#1</label>
-                <input type="text" id="question3" class="text-input" placeholder="Your question">
+                <label for="q1" class="q-label">question#1</label>
+                <input type="text" id="q1" class="text-input" placeholder="Your question">
                 <input type="text" class="text-input" placeholder="Answer field" disabled>
             </div>
 
             <div class="question">
-                <label for="question4" class="q-label">question#2</label>
-                <input type="text" name="question4" class="text-input" placeholder="Your question">
+                <label for="q2" class="q-label">question#2</label>
+                <input type="text" name="q2" class="text-input" placeholder="Your question">
                 
-                <input type="radio" name="question4" value="q1var1" id="q1var1" class="radio-input">
-                <label for="q1var1">
-                    <input type="text" name="question4" class="text-input" placeholder="variant#1">
+                <input type="radio" name="q2" value="q2var1" id="q2var1" class="radio-input">
+                <label for="q2var1">
+                    <input type="text" class="text-input" placeholder="variant#1">
                 </label>
-                <input type="radio" name="question4" value="q1var1" id="q2var1" class="radio-input">
-                <label for="q1var1">
-                    <input type="text" name="question4" class="text-input" placeholder="variant#1">
+
+                <input type="radio" name="q2" value="q2var2" id="q2var2" class="radio-input">
+                <label for="q2var2">
+                    <input type="text" class="text-input" placeholder="variant#2">
                 </label>
+
+                <button class="quiz-button">New Variant</button>
+            </div>
+
+            <div class="question">
+                <label for="q3" class="q-label">question#3</label>
+                <input type="text" name="q3" class="text-input" placeholder="Your question">
+                
+                <input type="checkbox" name="q3" value="q3var1" id="q3var1" class="checkbox-input">
+                <label for="q3var1">
+                    <input type="text" class="text-input" placeholder="variant#1">
+                </label>
+
+                <input type="checkbox" name="q3" value="q3var2" id="q3var2" class="checkbox-input">
+                <label for="q3var2">
+                    <input type="text" class="text-input" placeholder="variant#2">
+                </label>
+
+                <input type="checkbox" name="q3" value="q3var3" id="q3var3" class="checkbox-input">
+                <label for="q3var3">
+                    <input type="text" class="text-input" placeholder="variant#3">
+                </label>
+
+                <button class="quiz-button">New Variant</button>
             </div>
 
             <div class="add-block">
@@ -65,7 +89,7 @@
 
         </ul>
     </footer>
-
+    <script src="js/processing-changes.js"></script>
 </body>
 
-</html>
+</html> 

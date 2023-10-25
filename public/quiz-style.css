@@ -91,7 +91,7 @@ main {
 
 .text-input {
     padding: 5px;
-    border: 2px dashed rgba(0, 0, 0, 0.2);
+    border: 2px solid #e5e5e5;
     line-height: 24px;
     font-size: 18px;
     background-color: white;
@@ -141,13 +141,13 @@ main {
 }
 
 .text-input:focus {
-    border: 2px dashed #7A45D6;
+    border: 2px solid #7A45D6;
     outline: none;
 }
 
 .description {
     font-size: large;
-    color: #202020
+    color: #202020;
 }
 
 .description div {
